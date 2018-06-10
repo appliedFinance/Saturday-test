@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: bqewYOqqz/9yPhkkCHLmp8J/GrP1cEpm7IhsRLd1UTSOAJSebAWDEtS/DVPRuRIG2JoE5NvoWPLtokgcHBKURmTHta0rZIQPBwazb1qR7RUF0TJlvqTaC7XjuFEZpo4vROImUXrkhBnRmOdYj6I+r0eZrfYVcuQd02FX2/OdZqdi479Lkk8GPty2nunaHzFiIyiEKdmmfBcQ8pXs4ncTBO4hzKJvKf3j+meKs7JN7IwcFQ7GMqtjn/wMk+WCJFnyBVkmA9DLgCmqtW5k4k6b+ed8yC+GlhUeDyNieI0zxOFzmZAH+bJPBw0S4wPEBuT0qjagZMUKRaV4olgg2kE2ysDNvwJj8R05pEog2ZpOO3LA7wJ9cJb0Ix2HYF3GeatJKDpqm//feWsF4oFjr0oeA9s54fsQRjy0cwJR6bwaL7PpVkCBWvaSu8z4a9BH/fsk2M+wGtbweTxh9aEtLvA1qjWa/PeIgE5OJx/HiTYWOwKR6TpxpoVAjCP4/p0Vl7tC3kETJP/72DoCjp1AeJw7P8/wM1V+WCxzlCssJApZm4oB7+VNM7A/gJ7VK/wwUkKMyiJQ/RpciJv7f2McQOzrvLBXAyFt7hA5XHErizUzJPivbjxWKfZs+QeDLYm4/BAlIJ5GW2nMUYNRUmcvt03LoDlxIgNXmMlZtP2ajX1B3k4=
+  app: thawing-oasis-41491
+  on:
+    repo: appliedFinance/Saturday-test
