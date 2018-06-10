@@ -30,7 +30,7 @@ describe('Users', function() {
 				restaurants.forEach(function(item) {
 					expect(item).to.be.a('object');
 					expect(item).to.have.all.keys(
-							'name', 'borough', 'cuisine');
+							'id','address','name', 'borough', 'cuisine');
 				});
 			});
 	});
